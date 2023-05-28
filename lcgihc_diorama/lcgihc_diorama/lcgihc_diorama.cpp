@@ -54,6 +54,16 @@ float reproduciranimacion, habilitaranimacion,
 guardoFrame, reinicioFrame, ciclo, ciclo2, contador = 0;
 
 
+// Animación compleja 1
+int medusa_bandera = 1;
+float medusa_X = 0;
+float medusa_Y = 0;
+float medusa_Z = 0;
+float medusa_rot = 0;
+
+// Animación compleja 2
+float neritantan_rot = 0;
+
 
 Window mainWindow;
 std::vector<Mesh*> meshList;
@@ -74,6 +84,7 @@ Model planta;
 Model reg;
 Model reliquia; 
 Model roca; 
+Model medusa;
 
 
 Texture brickTexture;
@@ -250,27 +261,16 @@ bool animacion = false;
 
 
 //NEW// Keyframes
-float posXavion = 2.0, posYavion = 5.0, posZavion = -3.0;
-float	movAvion_x = 0.0f, movAvion_y = 0.0f;
-float giroAvion = 0;
 
 #define MAX_FRAMES 30
+
 int i_max_steps = 90;
-int i_curr_steps = 5;
 typedef struct _frame
 {
 	//Variables para GUARDAR Key Frames
-	float movAvion_x;		//Variable para PosicionX
-	float movAvion_y;		//Variable para PosicionY
-	float movAvion_xInc;		//Variable para IncrementoX
-	float movAvion_yInc;		//Variable para IncrementoY
-	float giroAvion;
-	float giroAvionInc;
 }FRAME;
 
 FRAME KeyFrame[MAX_FRAMES];
-int FrameIndex = 5;			//introducir datos
-bool play = false;
 int playIndex = 0;
 
 void saveFrame(void)
@@ -288,18 +288,10 @@ void saveFrame(void)
 
 void resetElements(void)
 {
-
-	movAvion_x = KeyFrame[0].movAvion_x;
-	movAvion_y = KeyFrame[0].movAvion_y;
-	giroAvion = KeyFrame[0].giroAvion;
 }
 
 void interpolation(void)
 {
-	KeyFrame[playIndex].movAvion_xInc = (KeyFrame[playIndex + 1].movAvion_x - KeyFrame[playIndex].movAvion_x) / i_max_steps;
-	KeyFrame[playIndex].movAvion_yInc = (KeyFrame[playIndex + 1].movAvion_y - KeyFrame[playIndex].movAvion_y) / i_max_steps;
-	KeyFrame[playIndex].giroAvionInc = (KeyFrame[playIndex + 1].giroAvion - KeyFrame[playIndex].giroAvion) / i_max_steps;
-
 }
 
 
@@ -311,11 +303,8 @@ void animate(void)
 		if (i_curr_steps >= i_max_steps) //end of animation between frames?
 		{
 			playIndex++;
-			printf("playindex : %d\n", playIndex);
 			if (playIndex > FrameIndex - 2)	//end of total animation?
 			{
-				printf("Frame index= %d\n", FrameIndex);
-				printf("termina anim\n");
 				playIndex = 0;
 				play = false;
 			}
@@ -332,9 +321,6 @@ void animate(void)
 			//printf("se quedó aqui\n");
 			//printf("max steps: %f", i_max_steps);
 			//Draw animation
-			movAvion_x += KeyFrame[playIndex].movAvion_xInc;
-			movAvion_y += KeyFrame[playIndex].movAvion_yInc;
-			giroAvion += KeyFrame[playIndex].giroAvionInc;
 			i_curr_steps++;
 		}
 
@@ -345,6 +331,7 @@ void animate(void)
 
 
 
+/* FIN KEYFRAMES*/
 
 
 int main()
@@ -380,6 +367,8 @@ int main()
 	reliquia.LoadModel("Obj/Reliquia.obj");
 	roca = Model();
 	roca.LoadModel("Obj/Roca.obj");
+	medusa = Model();
+	medusa.LoadModel("Obj/Swarm-shocker.obj");
 
 
 	std::vector<std::string> skyboxFaces;
@@ -429,6 +418,22 @@ int main()
 	spotLightCount++;
 
 
+	//KEYFRAMES DECLARADOS INICIALES
+
+	KeyFrame[0].movRoca_y = 0.0f;
+	KeyFrame[1].movRoca_y = 2.0f;
+	KeyFrame[2].movRoca_y = 6.0f;
+	KeyFrame[3].movRoca_y = 8.0f;
+	KeyFrame[4].movRoca_y = 10.0f;
+	KeyFrame[5].movRoca_y = 10.0f;
+	KeyFrame[6].movRoca_y = 8.0f;
+	KeyFrame[7].movRoca_y = 6.0f;
+	KeyFrame[8].movRoca_y = 2.0f;
+	KeyFrame[9].movRoca_y = 0.0f;
+
+	FrameIndex = 10;
+	i_curr_steps = 10;
+
 	GLuint uniformProjection = 0, uniformModel = 0, uniformView = 0, uniformEyePosition = 0, uniformSpecularIntensity = 0, uniformShininess = 0, uniformTextureOffset=0;
 	GLuint uniformColor = 0;
 	glm::mat4 projection = glm::perspective(45.0f, (GLfloat)mainWindow.getBufferWidth() / mainWindow.getBufferHeight(), 0.1f, 1000.0f);
@@ -442,6 +447,87 @@ int main()
 		deltaTime += (now - lastTime) / limitFPS;
 		lastTime = now;
 
+		// Animación por keyframes
+		animate();
+
+		// Animación compleja 
+		switch (medusa_bandera)
+		{
+		case 1:
+			medusa_X += 0.1 * deltaTime;
+			if (medusa_X >= 40) {
+				medusa_X = 40;
+				medusa_bandera++;
+			}
+			break;
+		case 2:
+			medusa_rot += 1.0 * deltaTime;
+			if (medusa_rot >= 90) {
+				medusa_rot = 90;
+				medusa_bandera++;
+			}
+			break;
+		case 3:
+			medusa_Z += 0.1 * deltaTime;
+			if (medusa_Z >= 40) {
+				medusa_Z = 40;
+				medusa_bandera++;
+			}
+			break;
+		case 4:
+			medusa_rot += 1.0 * deltaTime;
+			if (medusa_rot >= 180) {
+				medusa_rot = 180;
+				medusa_bandera++;
+			}
+			break;
+		case 5:
+			medusa_X -= 0.1 * deltaTime;
+			if (medusa_X <= 0) {
+				medusa_X = 0;
+				medusa_bandera++;
+			}
+			break;
+		case 6:
+			medusa_rot += 1.0 * deltaTime;
+			if (medusa_rot >= 270) {
+				medusa_rot = 270;
+				medusa_bandera++;
+			}
+			break;
+		case 7:
+			medusa_Z -= 0.1 * deltaTime;
+			if (medusa_Z <= 0) {
+				medusa_Z = 0;
+				medusa_bandera++;
+			}
+			break;
+		case 8:
+			medusa_rot += 1.0 * deltaTime;
+			if (medusa_rot >= 360) {
+				medusa_rot = 0;
+				medusa_bandera = 1;
+			}
+			break;
+		default:
+			medusa_X = 0;
+			medusa_Y = 0;
+			medusa_Z = 0;
+			medusa_bandera = 1;
+			medusa_rot = 0;
+			break;
+		}
+
+		medusa_Y += 2.0 * deltaTime;
+		neritantan_rot += 0.7 * deltaTime;
+
+		if (medusa_Y >= 360) {
+			medusa_Y = 0;
+		}
+
+		if (neritantan_rot >= 360) {
+			neritantan_rot = 0;
+		}
 
 		//Recibir eventos del usuario
 		glfwPollEvents();
@@ -501,7 +587,7 @@ int main()
 		escenario.RenderModel(); 
 
 		//COSAS VARIAS
-
+		
 		
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(17.0f, 0.0f, 25.0f));
@@ -509,7 +595,6 @@ int main()
 		model = glm::rotate(model, 180 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f)); 
 		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f)); 
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
-		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		blazeReap.RenderModel();
 
 		
@@ -517,7 +602,6 @@ int main()
 		model = glm::translate(model, glm::vec3(-35.0f, 5.0f, -28.0f));
 		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
-		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		brujula.RenderModel();
 
 		
@@ -527,7 +611,6 @@ int main()
 		//model = glm::rotate(model, -90 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f)); 
 		//model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f)); 
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
-		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		cuchillo.RenderModel();
 
 
@@ -600,11 +683,18 @@ int main()
 
 			j = 6 * i;
 			model = glm::mat4(1.0);
-			model = glm::translate(model, glm::vec3(rocasF[j], rocasF[j + 1], rocasF[j + 2]));
 			model = glm::scale(model, glm::vec3(rocasF[j + 3], rocasF[j + 4], rocasF[j + 5]));
 			glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 			Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 			roca.RenderModel();
+		}
+
+		if (!play) {
+			resetElements();			
+			interpolation();
+			play = true;
+			playIndex = 0;
+			i_curr_steps = 0;
 		}
 
 		float plantas[] = {
@@ -632,19 +722,25 @@ int main()
 		}
 
 		model = glm::mat4(1.0);
-		model = glm::translate(model, glm::vec3(-24.0f, 4.0f, 29.0f));
 		model = glm::scale(model, glm::vec3(2.5f, 2.5f, 2.5f)); 
-		model = glm::rotate(model, 45 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		neritantan.RenderModel();
+
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(medusa_X - 20, 50.0f + (sin(glm::radians(medusa_Y))) * 4, medusa_Z - 20));
+		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
+		//model = glm::rotate(model, 45 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, medusa_rot * toRadians, glm::vec3(0.0f, -1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
+		medusa.RenderModel();
 
 
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(62.0f, 13.0f, 10.0f));
 		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
-		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		reliquia.RenderModel();
 
 		//AVATARS
