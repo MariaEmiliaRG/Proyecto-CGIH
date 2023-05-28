@@ -428,56 +428,10 @@ int main()
 		15.0f);
 	spotLightCount++;
 
-	//luz de helicóptero
-
-	//luz de faro
-
-
 
 	GLuint uniformProjection = 0, uniformModel = 0, uniformView = 0, uniformEyePosition = 0, uniformSpecularIntensity = 0, uniformShininess = 0, uniformTextureOffset=0;
 	GLuint uniformColor = 0;
 	glm::mat4 projection = glm::perspective(45.0f, (GLfloat)mainWindow.getBufferWidth() / mainWindow.getBufferHeight(), 0.1f, 1000.0f);
-
-	/*
-	
-	movCoche = 0.0f;
-	movOffset = 0.01f;
-	rotllanta = 0.0f;
-	rotllantaOffset = 5.0f;
-	avanza = true;
-
-	glm::vec3 posblackhawk = glm::vec3(2.0f, 0.0f, 0.0f);
-	//KEYFRAMES DECLARADOS INICIALES
-
-	KeyFrame[0].movAvion_x = 0.0f;
-	KeyFrame[0].movAvion_y = 0.0f;
-	KeyFrame[0].giroAvion = 0;
-
-
-	KeyFrame[1].movAvion_x = 1.0f;
-	KeyFrame[1].movAvion_y = 2.0f;
-	KeyFrame[1].giroAvion = 0;
-
-
-	KeyFrame[2].movAvion_x = 2.0f;
-	KeyFrame[2].movAvion_y = 0.0f;
-	KeyFrame[2].giroAvion = 0;
-
-
-	KeyFrame[3].movAvion_x = 3.0f;
-	KeyFrame[3].movAvion_y = -2.0f;
-	KeyFrame[3].giroAvion = 0;
-
-	KeyFrame[4].movAvion_x = 4.0f;
-	KeyFrame[4].movAvion_y = 0.0f;
-	KeyFrame[4].giroAvion = 180.0f;
-	*/
-
-	//Agregar Kefyrame[5] para que el avión regrese al inicio
-
-
-
-
 
 	
 	////Loop mientras no se cierra la ventana
@@ -548,25 +502,25 @@ int main()
 
 		//COSAS VARIAS
 
-		/*
+		
 		model = glm::mat4(1.0);
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
-		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
-		//model = glm::rotate(model, -90 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f)); 
-		//model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f)); 
+		model = glm::translate(model, glm::vec3(17.0f, 0.0f, 25.0f));
+		model = glm::scale(model, glm::vec3(0.5f,0.5f, 0.5f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f)); 
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f)); 
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		blazeReap.RenderModel();
 
+		
 		model = glm::mat4(1.0);
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
-		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
-		//model = glm::rotate(model, -90 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f)); 
-		//model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f)); 
+		model = glm::translate(model, glm::vec3(-35.0f, 5.0f, -28.0f));
+		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		brujula.RenderModel();
 
+		
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
@@ -576,6 +530,7 @@ int main()
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		cuchillo.RenderModel();
 
+		/*
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
