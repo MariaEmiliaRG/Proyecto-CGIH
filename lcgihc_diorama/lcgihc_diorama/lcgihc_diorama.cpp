@@ -433,7 +433,7 @@ int main()
 	GLuint uniformColor = 0;
 	glm::mat4 projection = glm::perspective(45.0f, (GLfloat)mainWindow.getBufferWidth() / mainWindow.getBufferHeight(), 0.1f, 1000.0f);
 
-	
+	int i = 0;
 	////Loop mientras no se cierra la ventana
 	while (!mainWindow.getShouldClose())
 	{
@@ -522,13 +522,47 @@ int main()
 
 		
 		model = glm::mat4(1.0);
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
+		model = glm::translate(model, glm::vec3(20.0f, 0.0f, 19.0));
 		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
 		//model = glm::rotate(model, -90 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f)); 
 		//model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f)); 
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		cuchillo.RenderModel();
+
+
+		float rocas[] = {
+			10.0f, 2.0f, -56.0f, 5.0f, 1.0f, 5.0f,
+			15.0f, 2.0f, -49.0f, 3.0f, 1.0f, 5.0f, 
+			-38.0f, 2.0f, -16.0f, 3.0f, 2.0f, 4.0f, 
+			-25.0f, 3.0f, -20.0f, 4.0f, 1.0f, 3.0f,
+			-30.0f, 2.0f, -18.0f, 5.0f, 2.0f, 1.5f,
+			-48.0f, 2.0f, 35.0f, 4.0f, 2.0f, 2.0f,
+			-36.0f, 2.0f, 42.0f, 3.0f, 2.0f, 5.0f,
+		};
+
+		int j;
+
+		for (i = 0; i < 7; i++) {
+
+			j = 6 * i;
+			model = glm::mat4(1.0);
+			model = glm::translate(model, glm::vec3(rocas[j], rocas[j+1], rocas[j+2]));
+			model = glm::scale(model, glm::vec3(rocas[j+3], rocas[j+4], rocas[j+5]));
+			model = glm::rotate(model, 180 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+			glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+			Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
+			roca.RenderModel();
+		}
+
+		model = glm::mat4(1.0);
+		model = glm::translate(model, glm::vec3(-24.0f, 4.0f, 29.0f));
+		model = glm::scale(model, glm::vec3(2.5f, 2.5f, 2.5f)); 
+		model = glm::rotate(model, 45 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
+		neritantan.RenderModel();
+
 
 		/*
 		model = glm::mat4(1.0);
@@ -558,19 +592,12 @@ int main()
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		reliquia.RenderModel();
 
-		model = glm::mat4(1.0);
-		model = glm::translate(model, glm::vec3(0.0f, 0.0f, 0.0f));
-		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
-		//model = glm::rotate(model, -90 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f)); 
-		//model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f)); 
-		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
-		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
-		roca.RenderModel();
+		
 
 		*/
 
 		//AVATARS
-
+		
 		
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(0.0f, 17.0f, .0f));
