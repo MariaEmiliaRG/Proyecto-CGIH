@@ -43,15 +43,8 @@ Adicional.- Texturizado con transparencia usando Blending: Requerimos dibujar lo
 const float toRadians = 3.14159265f / 180.0f;
 
 //variables para animación
-float movCoche;
-float movOffset;
-float rotllanta;
-float rotllantaOffset;
-bool avanza;
 float toffsetu = 0.0f;
 float toffsetv = 0.0f;
-float reproduciranimacion, habilitaranimacion,
-guardoFrame, reinicioFrame, ciclo, ciclo2, contador = 0;
 
 
 // Animación compleja 1
@@ -73,17 +66,17 @@ Camera camera;
 
 //MODELOS DEL PROYECTO 
 
-Model escenario; 
-Model blazeReap; 
-Model brujula; 
-Model cuchillo; 
-Model faputa; 
-Model gaburoon; 
-Model neritantan; 
-Model planta; 
+Model escenario;
+Model blazeReap;
+Model brujula;
+Model cuchillo;
+Model faputa;
+Model gaburoon;
+Model neritantan;
+Model planta;
 Model reg;
-Model reliquia; 
-Model roca; 
+Model reliquia;
+Model roca;
 Model medusa;
 
 
@@ -93,14 +86,6 @@ Texture plainTexture;
 Texture pisoTexture;
 Texture AgaveTexture;
 Texture FlechaTexture;
-
-
-
-Model Kitt_M;
-Model Llanta_M;
-Model Camino_M;
-Model Blackhawk_M;
-Model Dado_M;
 
 Skybox skybox;
 
@@ -126,8 +111,6 @@ static const char* vShader = "shaders/shader_light.vert";
 // Fragment Shader
 static const char* fShader = "shaders/shader_light.frag";
 
-//PARA INPUT CON KEYFRAMES 
-void inputKeyframes(bool* keys);
 
 
 //cálculo del promedio de las normales para sombreado de Phong
@@ -208,7 +191,7 @@ void CreateObjects()
 
 
 	};
-	
+
 
 	unsigned int flechaIndices[] = {
 	   0, 1, 2,
@@ -223,15 +206,15 @@ void CreateObjects()
 
 	};
 
-	Mesh *obj1 = new Mesh();
+	Mesh* obj1 = new Mesh();
 	obj1->CreateMesh(vertices, indices, 32, 12);
 	meshList.push_back(obj1);
 
-	Mesh *obj2 = new Mesh();
+	Mesh* obj2 = new Mesh();
 	obj2->CreateMesh(vertices, indices, 32, 12);
 	meshList.push_back(obj2);
 
-	Mesh *obj3 = new Mesh();
+	Mesh* obj3 = new Mesh();
 	obj3->CreateMesh(floorVertices, floorIndices, 32, 6);
 	meshList.push_back(obj3);
 
@@ -249,7 +232,7 @@ void CreateObjects()
 
 void CreateShaders()
 {
-	Shader *shader1 = new Shader();
+	Shader* shader1 = new Shader();
 	shader1->CreateFromFiles(vShader, fShader);
 	shaderList.push_back(*shader1);
 }
@@ -261,37 +244,37 @@ bool animacion = false;
 
 
 //NEW// Keyframes
+float posYroca = 0.0;
+float movRoca_y = 0.0f;
 
 #define MAX_FRAMES 30
 
 int i_max_steps = 90;
+int i_curr_steps = 10;
+
+
 typedef struct _frame
 {
 	//Variables para GUARDAR Key Frames
+	float movRoca_y;		//Variable para PosicionY
+	float movRoca_yInc;		//Variable para IncrementoY
 }FRAME;
 
 FRAME KeyFrame[MAX_FRAMES];
+
+int FrameIndex = 10;			//introducir datos
+bool play = true;
 int playIndex = 0;
 
-void saveFrame(void)
-{
-
-	printf("frameindex %d\n", FrameIndex);
-
-
-	KeyFrame[FrameIndex].movAvion_x = movAvion_x;
-	KeyFrame[FrameIndex].movAvion_y = movAvion_y;
-	KeyFrame[FrameIndex].giroAvion = giroAvion;
-
-	FrameIndex++;
-}
 
 void resetElements(void)
 {
+	movRoca_y = KeyFrame[0].movRoca_y;
 }
 
 void interpolation(void)
 {
+	KeyFrame[playIndex].movRoca_yInc = (KeyFrame[playIndex + 1].movRoca_y - KeyFrame[playIndex].movRoca_y) / i_max_steps;
 }
 
 
@@ -303,8 +286,11 @@ void animate(void)
 		if (i_curr_steps >= i_max_steps) //end of animation between frames?
 		{
 			playIndex++;
+			//printf("playindex : %d\n", playIndex);
 			if (playIndex > FrameIndex - 2)	//end of total animation?
 			{
+				//printf("Frame index= %d\n", FrameIndex);
+				//printf("termina anim\n");
 				playIndex = 0;
 				play = false;
 			}
@@ -321,13 +307,12 @@ void animate(void)
 			//printf("se quedó aqui\n");
 			//printf("max steps: %f", i_max_steps);
 			//Draw animation
+			movRoca_y += KeyFrame[playIndex].movRoca_yInc;
 			i_curr_steps++;
 		}
 
 	}
 }
-
-/* FIN KEYFRAMES*/
 
 
 
@@ -434,7 +419,7 @@ int main()
 	FrameIndex = 10;
 	i_curr_steps = 10;
 
-	GLuint uniformProjection = 0, uniformModel = 0, uniformView = 0, uniformEyePosition = 0, uniformSpecularIntensity = 0, uniformShininess = 0, uniformTextureOffset=0;
+	GLuint uniformProjection = 0, uniformModel = 0, uniformView = 0, uniformEyePosition = 0, uniformSpecularIntensity = 0, uniformShininess = 0, uniformTextureOffset = 0;
 	GLuint uniformColor = 0;
 	glm::mat4 projection = glm::perspective(45.0f, (GLfloat)mainWindow.getBufferWidth() / mainWindow.getBufferHeight(), 0.1f, 1000.0f);
 
@@ -534,11 +519,6 @@ int main()
 		camera.keyControl(mainWindow.getsKeys(), deltaTime);
 		camera.mouseControl(mainWindow.getXChange(), mainWindow.getYChange());
 
-		//para keyframes
-		inputKeyframes(mainWindow.getsKeys());
-		//animate();
-
-
 		// Clear the window
 		glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -579,38 +559,40 @@ int main()
 
 		//ESCENARIO
 
-		model = glm::mat4(1.0); 
+		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(0.0f, -50.0f, 0.0f));
-		model = glm::scale(model, glm::vec3(7.0f, 4.0f, 7.0f)); 
-		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model)); 
-		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess); 
-		escenario.RenderModel(); 
+		model = glm::scale(model, glm::vec3(7.0f, 4.0f, 7.0f));
+		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
+		escenario.RenderModel();
 
 		//COSAS VARIAS
-		
-		
+
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(17.0f, 0.0f, 25.0f));
-		model = glm::scale(model, glm::vec3(0.5f,0.5f, 0.5f));
-		model = glm::rotate(model, 180 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f)); 
-		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f)); 
+		model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
+		model = glm::rotate(model, 180 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
+		model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		blazeReap.RenderModel();
 
-		
+
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(-35.0f, 5.0f, -28.0f));
 		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		brujula.RenderModel();
 
-		
+
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(20.0f, 0.0f, 19.0));
 		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
 		//model = glm::rotate(model, -90 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f)); 
 		//model = glm::rotate(model, -90 * toRadians, glm::vec3(0.0f, 0.0f, 1.0f)); 
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		cuchillo.RenderModel();
 
 
@@ -627,7 +609,7 @@ int main()
 			23.0f, 2.0f, 55.0f, 3.0f, 1.0f, 5.0f,
 			85.0f, 2.0f, 35.0f, 5.0f, 3.5f, 1.0f,
 			64.0f, 2.0f, 15.0f, 6.0f, 3.0f, 2.5f,
-			95.0f, 2.0f, 26.0f, 4.5f, 2.0f, 8.0f, 
+			95.0f, 2.0f, 26.0f, 4.5f, 2.0f, 8.0f,
 			72.0f, 2.0f, 45.0f, 5.0f, 3.5f, 4.0f,
 			34.0f, 2.0f, 65.0f, 3.0f, 3.0f, 6.5f,
 			86.0f, 2.0f, 32.0f, 6.5f, 2.0f, 7.0f,
@@ -656,22 +638,21 @@ int main()
 
 		int j;
 
-		for (i = 0; i < (sizeof(rocas)/sizeof(rocas[0]))/6 ; i++) {
+		for (i = 0; i < (sizeof(rocas) / sizeof(rocas[0])) / 6; i++) {
 
 			j = 6 * i;
 			model = glm::mat4(1.0);
-			model = glm::translate(model, glm::vec3(rocas[j], rocas[j+1], rocas[j+2]));
-			model = glm::scale(model, glm::vec3(rocas[j+3], rocas[j+4], rocas[j+5]));
+			model = glm::translate(model, glm::vec3(rocas[j], rocas[j + 1], rocas[j + 2]));
+			model = glm::scale(model, glm::vec3(rocas[j + 3], rocas[j + 4], rocas[j + 5]));
 			model = glm::rotate(model, 180 * toRadians, glm::vec3(1.0f, 0.0f, 0.0f));
 			glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 			Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 			roca.RenderModel();
 		}
 
-
 		float rocasF[] = {
 			100, 30, -120, 10,8,17,
-			95, 36, -98, 20,7,10, 
+			95, 36, -98, 20,7,10,
 			75, 30, -80, 10,9,12,
 			-87, 30, -120, 12,8,11,
 			-65, 20, -98, 25,7,13,
@@ -680,9 +661,9 @@ int main()
 		};
 
 		for (i = 0; i < (sizeof(rocasF) / sizeof(rocasF[0])) / 6; i++) {
-
 			j = 6 * i;
 			model = glm::mat4(1.0);
+			model = glm::translate(model, glm::vec3(rocasF[j], rocasF[j + 1] + movRoca_y + 3, rocasF[j + 2]));
 			model = glm::scale(model, glm::vec3(rocasF[j + 3], rocasF[j + 4], rocasF[j + 5]));
 			glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 			Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
@@ -690,7 +671,7 @@ int main()
 		}
 
 		if (!play) {
-			resetElements();			
+			resetElements();
 			interpolation();
 			play = true;
 			playIndex = 0;
@@ -722,7 +703,10 @@ int main()
 		}
 
 		model = glm::mat4(1.0);
-		model = glm::scale(model, glm::vec3(2.5f, 2.5f, 2.5f)); 
+		model = glm::translate(model, glm::vec3(-40.0f + ((sin(glm::radians(neritantan_rot))) * 20), 4.0f, 35.0f + ((cos(glm::radians(neritantan_rot + 180))) * 20)));
+		model = glm::scale(model, glm::vec3(2.5f, 2.5f, 2.5f));
+		model = glm::rotate(model, 90 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
+		model = glm::rotate(model, neritantan_rot * toRadians, glm::vec3(0.0f, -1.0f, 0.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		neritantan.RenderModel();
@@ -741,22 +725,21 @@ int main()
 		model = glm::translate(model, glm::vec3(62.0f, 13.0f, 10.0f));
 		model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+		Material_brillante.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		reliquia.RenderModel();
 
 		//AVATARS
-		
-		
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(0.0f, 17.0f, .0f));
 		model = glm::scale(model, glm::vec3(1.5f, 1.5f, 1.5f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		gaburoon.RenderModel();
-		
+
 
 		model = glm::mat4(1.0);
 		model = glm::translate(model, glm::vec3(48.0f, -3.0f, 36.0f));
-		model = glm::scale(model, glm::vec3(2.0f, 2.0f, 2.0f)); 
+		model = glm::scale(model, glm::vec3(2.0f, 2.0f, 2.0f));
 		model = glm::rotate(model, -115 * toRadians, glm::vec3(0.0f, 1.0f, 0.0f));
 		glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
@@ -770,7 +753,6 @@ int main()
 		Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
 		reg.RenderModel();
 
-
 		glUseProgram(0);
 
 		mainWindow.swapBuffers();
@@ -778,82 +760,3 @@ int main()
 
 	return 0;
 }
-
-void inputKeyframes(bool* keys)
-{
-	if (keys[GLFW_KEY_SPACE])
-	{
-		if (reproduciranimacion < 1)
-
-		{
-			if (play == false && (FrameIndex > 1))
-			{
-				resetElements();
-				//First Interpolation				
-				interpolation();
-				play = true;
-				playIndex = 0;
-				i_curr_steps = 0;
-				reproduciranimacion++;
-				printf("\n presiona 0 para habilitar reproducir de nuevo la animación'\n");
-				habilitaranimacion = 0;
-
-			}
-			else
-			{
-				play = false;
-			}
-		}
-	}
-	if (keys[GLFW_KEY_0])
-	{
-		if (habilitaranimacion < 1)
-		{
-			reproduciranimacion = 0;
-		}
-	}
-
-	if (keys[GLFW_KEY_L])
-	{
-		if (guardoFrame < 1)
-		{
-			saveFrame();
-			printf("movAvion_x es: %f\n", movAvion_x);
-			//printf("movAvion_y es: %f\n", movAvion_y);
-			printf(" \npresiona P para habilitar guardar otro frame'\n");
-			guardoFrame++;
-			reinicioFrame = 0;
-		}
-	}
-	if (keys[GLFW_KEY_P])
-	{
-		if (reinicioFrame < 1)
-		{
-			guardoFrame = 0;
-		}
-	}
-
-
-	if (keys[GLFW_KEY_1])
-	{
-		if (ciclo < 1)
-		{
-			//printf("movAvion_x es: %f\n", movAvion_x);
-			movAvion_x += 1.0f;
-			printf("\n movAvion_x es: %f\n", movAvion_x);
-			ciclo++;
-			ciclo2 = 0;
-			printf("\n reinicia con 2\n");
-		}
-
-	}
-	if (keys[GLFW_KEY_2])
-	{
-		if (ciclo2 < 1)
-		{
-			ciclo = 0;
-		}
-	}
-
-}
-
