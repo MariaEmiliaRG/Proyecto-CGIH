@@ -1,0 +1,4213 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned int,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned int,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01I$0A@@glm@@QAE@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned int,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned int,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned int,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01I$0A@@glm@@QAE@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned int,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned int,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned int,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01I$0A@@glm@@QAE@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned int,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned int,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned int,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01I$0A@@glm@@QAE@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned int,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned int,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned int,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01I$0A@@glm@@QAE@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned int,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::p\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec3.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<3,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$02M$0A@@glm@@QAE@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::p"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec3.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<3,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$02M$0A@@glm@@QAE@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec3.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<3,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$02M$0A@@glm@@QAE@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec3.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<3,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$02M$0A@@glm@@QAE@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<3,float,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec3.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<3,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$02M$0A@@glm@@QAE@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<3,float,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec3.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<3,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$02M$0A@@glm@@QAE@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::b\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec3.inl"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 49,
+                  "endLine": 37,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<3,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$02M$0A@@glm@@QAE@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<3,float,0>::<unnamed-tag>::<unnamed-tag>::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned short,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned short,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned short,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned short,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned short,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned short,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned short,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned short,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,unsigned short,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,unsigned short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,unsigned short,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,short,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,short,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,short,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,short,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,short,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,short,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,short,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,short,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,short,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 2,
+                  "endLine": 82,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,short,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,short,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 2,
+                  "endLine": 52,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::a\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,unsigned char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::a"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,unsigned char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::p\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,unsigned char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::p"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,unsigned char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::b\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,unsigned char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::q\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,unsigned char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::q"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,unsigned char,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,unsigned char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,unsigned char,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,unsigned char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,unsigned char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,unsigned char,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::a\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::a"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::p\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::p"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::q\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::q"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::b\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::q\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,signed char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::q"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::p\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,signed char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::p"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,signed char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,signed char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,signed char,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,signed char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,signed char,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,signed char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,signed char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::b\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,signed char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::a\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 467,
+                  "startColumn": 2,
+                  "endLine": 467,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,signed char,0>::{ctor}",
+                  "decoratedName": "??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,signed char,0>::<unnamed-tag>::<unnamed-tag>::a"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::a\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::a"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::p\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::p"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::q\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::q"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::b\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 2,
+                  "endLine": 177,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 49,
+                  "endLine": 32,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 49,
+                  "endLine": 32,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 49,
+                  "endLine": 32,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 49,
+                  "endLine": 32,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 49,
+                  "endLine": 32,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<2,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$01M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<2,float,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::a\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 49,
+                  "endLine": 160,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::a"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 49,
+                  "endLine": 160,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::p\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 49,
+                  "endLine": 160,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::p"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::q\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 49,
+                  "endLine": 160,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::q"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 49,
+                  "endLine": 160,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 49,
+                  "endLine": 160,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 49,
+                  "endLine": 160,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::b\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 49,
+                  "endLine": 160,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 49,
+                  "endLine": 160,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::a\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 49,
+                  "endLine": 155,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::a"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::data\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 49,
+                  "endLine": 155,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::p\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 49,
+                  "endLine": 155,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::p"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::q\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 49,
+                  "endLine": 155,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::q"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::t\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 49,
+                  "endLine": 155,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::t"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::s\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 49,
+                  "endLine": 155,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::s"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::r\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 49,
+                  "endLine": 155,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::r"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::b\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 49,
+                  "endLine": 155,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::b"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::g\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 49,
+                  "endLine": 155,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "glm::vec<4,float,0>::{ctor}",
+                  "decoratedName": "??0?$vec@$03M$0A@@glm@@QAE@M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "glm::vec<4,float,0>::<unnamed-tag>::<unnamed-tag>::g"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32532.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.inl"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0a8061732ffabe5d715b1476c95e296fb757fd3766dadef722374772912d983c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec3.inl"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "fc85fc012d4cc025e13ab7027d4355f832f16eff246e7c12911bba41cf31beee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.inl"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2f7b2ea5bf3d2cd5e5407f92af0d8b63bb67cf311210e2ee20556d80c1698342"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/pointlight.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3e29130e9b265c2e59a6b2eb4afba04c6dad3a22c9e08161567734681572301e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/pointlight.h"
+          },
+          "hashes": {
+            "sha-256": "613db0fe7d279936ca8ec57a9b5af74a2e79e5816ac0404a6ab8cf6d7bb1640b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/light.h"
+          },
+          "hashes": {
+            "sha-256": "a9ac45e4a2fc84363eba7a26988520aea0e3637efe7dfadd80664c3cdaa2f6fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/glew.h"
+          },
+          "hashes": {
+            "sha-256": "1a2d50dc00a69940838cb3b5413cf7a7ac3cee8078672f27ffbfa2d3b88ad344"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/glm.hpp"
+          },
+          "hashes": {
+            "sha-256": "32d1d7eb18033d504dd54502562b0bf4677e4b0ecd7837d8ae0bf551818e71d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/_fixes.hpp"
+          },
+          "hashes": {
+            "sha-256": "fa972e30228133d4a67cbdb1a05f0edfb32de4149c95c253650cf1ff1cf35ad1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/setup.hpp"
+          },
+          "hashes": {
+            "sha-256": "fcbdd8104d405e3e7ccc8152c868ed90b603d7b10e0527a0663505e630a6bca5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/simd/platform.h"
+          },
+          "hashes": {
+            "sha-256": "809c53fb4405b168bed160884f8167d915a29b29d4e3cdc71b6e2679fd3b12ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/fwd.hpp"
+          },
+          "hashes": {
+            "sha-256": "e673f168ea6cc17961d8d1f9ff41ba660e4a3df8e6b1ff5ca7e20772fbda3e56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/qualifier.hpp"
+          },
+          "hashes": {
+            "sha-256": "83dd53929893d2752135375047db6645cfbccf4453ed034af9decfd710d855f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/vec2.hpp"
+          },
+          "hashes": {
+            "sha-256": "ad9741aa85525d942a0d510987a87f637faa6b1216e149a004268950e8081467"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_bool2.hpp"
+          },
+          "hashes": {
+            "sha-256": "14dfb7baa6114b10d428991e1f998ad9fa8a3157ae45a245ba13321cf6c87043"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec2.hpp"
+          },
+          "hashes": {
+            "sha-256": "59b39affd4178d9186bb41abd79259126931ae339896b63b4a62e4abebc6a90c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/compute_vector_relational.hpp"
+          },
+          "hashes": {
+            "sha-256": "f4b44de6254936cd4f35756f93469934d60859f0062e821733bed79441f66abf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_bool2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "a84467a8f9aeeb8de3b76df1aa5f8085503b5f4050bd5c808a60b2527736b72c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_float2.hpp"
+          },
+          "hashes": {
+            "sha-256": "e04a566abf197f138dc8fb3156833cd2ba7fc4a92405f840b096b317fcc46961"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_float2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "a98bcd3d22935a48c693496dd13bd6020e98072079b94c45bc608b7b6d7a106d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_double2.hpp"
+          },
+          "hashes": {
+            "sha-256": "da0b99d0c93f97bc072c2714fccd5e7215577482b28de408e3b7e3b30c4fc27f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_double2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "4fa7175b87630322d224aef6f050549120eb6119f78628d0bf002484bc2325bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_int2.hpp"
+          },
+          "hashes": {
+            "sha-256": "3f19cc4e45dca03b9f3a88608c942b9cf9d167c80e2766b83d6ab134284ad25c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_int2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "5aa66485ffc1fa86aa1c6ecde52b2235d3033e64b28cb4fa04ca1c82ac7d1b23"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_uint2.hpp"
+          },
+          "hashes": {
+            "sha-256": "3d03953933445d262f9e838144218343dcbd92f01ddcafcba368e68712affecf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_uint2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "dddf1c4328ae8bcb57479b89505a4bd94ddbf923a0b2a767cea1d6923257e0c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/vec3.hpp"
+          },
+          "hashes": {
+            "sha-256": "6b6f940edd76cdc02fa84dc58fc4983fe2bc952d820821ec51c2c49710495629"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_bool3.hpp"
+          },
+          "hashes": {
+            "sha-256": "8444556f70e1fa055558f8478ba741df295a734f142e287fc0786ffed9284a47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec3.hpp"
+          },
+          "hashes": {
+            "sha-256": "29671afdebc7d159a1f69d5ab42f69662c5d71ec2595b0148af455594986aa2c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_bool3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "764e4523aa8c416e0e3cf90f164332166eac1878a8784c232a8872fee5677f2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_float3.hpp"
+          },
+          "hashes": {
+            "sha-256": "03d186b2344d390c32a512a9b7736707b6399f0c3f77b80ab0d49a7d0b983751"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_float3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "217037d131b93e061aec1cff60642f856c84e99056acac5788425763728ff6cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_double3.hpp"
+          },
+          "hashes": {
+            "sha-256": "899740010c39bbe4e22b51daad27f6b4fa00da9bc4a4b70866036bd888afa984"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_double3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "936f965a1b879c915e970364b5baebc17bab7d649e879f6e0d96880e347f0621"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_int3.hpp"
+          },
+          "hashes": {
+            "sha-256": "1296aa5290c52bf8331b54e24af32fbb7769d089f6f0146b6f3cdfee89a7aed6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_int3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "5574443fa19fc8b8b0c54cf9b1f4962f5a29b6ec669e447461c07dd4d6c22227"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_uint3.hpp"
+          },
+          "hashes": {
+            "sha-256": "48c423931390622043e17545a0308776dc4a322ba0d2e36e8ff7927d5e0b66fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_uint3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "fbf093f349f756f47f639edece091c9384db8db982b60a699f15841770162a47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/vec4.hpp"
+          },
+          "hashes": {
+            "sha-256": "6c30614e1a422185899259cc1e4987b2249d4d63d6a0b3a48ad61979f0bf055a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_bool4.hpp"
+          },
+          "hashes": {
+            "sha-256": "b9106d7154ed6df900ed9ed5919bed0b625d08058f761df8e783e14686daef39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4.hpp"
+          },
+          "hashes": {
+            "sha-256": "8a4c153793732b097f844d12270d383eeec9cec9b53afed408e595985af3a6b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec4_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "f4f57102d129a7c8ef04838805667d5e81f802512769a86ecbefd23040330f89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_bool4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "2df19112b8540023df6130ab9b72f150e5e7081fafa02c77bdb7e9abe9ebd0ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_float4.hpp"
+          },
+          "hashes": {
+            "sha-256": "b09270e5e76688f9093c055d4f92cf82d612cbc2f3d3d69e2343bbfd3acb8b13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_float4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "9ab8578f82608014191f97a27413617faf029b9bf64311756de7a15fc47442ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_double4.hpp"
+          },
+          "hashes": {
+            "sha-256": "272762761a35813caaa8647db255606e5fa356595a052ea94ed87e612c458957"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_double4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "8102adb66c260325ad13df339843de450894bb45eafedaa05753c479b830a934"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_int4.hpp"
+          },
+          "hashes": {
+            "sha-256": "6115283d489e1d990ca4d88001f63c494ea4959cf216d44ef9e28dbf3d9b4620"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_int4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "e4898e2d7ea3ce16bd9f9f5528cea734c06a031a94b78c9939281195454fc35d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_uint4.hpp"
+          },
+          "hashes": {
+            "sha-256": "1afbf32485cf310fb8abd8f9610be2c7fef1fd71a5c4495cad4b942c74832b16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/vector_uint4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "65187ee13367a2af4008f618d9e0b9e4db0d61ff792299bf7530129c4739288e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/mat2x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "1d72184e12db839cde03efd6301a33ae3dfe002930c382324ee4b53e89a775b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double2x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "f162435d27c44b2123fb6aeabf6a1ad303038bc23ce2c4ce7c8d65059b4ff18d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat2x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "426e7dbf96f7be9f1766e1e538ac95098c9bcb8cb60dd0d939bd2dd0254cc0ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat2x2.inl"
+          },
+          "hashes": {
+            "sha-256": "db0e905014561780161d3f34b7540504aab5acfa665c327b4ca986e928415e39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/matrix.hpp"
+          },
+          "hashes": {
+            "sha-256": "9c68e3878b8366a272769013a3a1fd42d1aa8a60c4a9fe85119fbb1624c33492"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/mat2x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "c4ab6c4610acbf6a2338fc8757fd50c0ae8837bda5119d8cb11a9f4aff48ab70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double2x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "293555b0ed97a43a8943245ad856ae5dd7db047205cd518f3a6626475a3854f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat2x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "41318f30cb64c4f866d86e9a20ac06ec5af4f16898492f2f4807af6ee760603f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat2x3.inl"
+          },
+          "hashes": {
+            "sha-256": "ed932ca6b41684f658b7841d28184abc7553f597e9009599aa74b85fd764c47b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double2x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "5b0ebe9a915f87f396870eb4897253e60fa0bea6044435ce7a28ee3a1920d71c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float2x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "d731b656ddded3ca7b9eb26b52849445a1d438457e4fad02d1fe94fa349b39a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float2x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "f8bd301e8a43b15e92c9935edb71c455b9ecd922c5f0a2e6d1b32783819cb28c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/mat2x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "2fe1239791b39696fd11569cb3fcb0b6a2e980be451587322287db854e774abb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double2x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "8a220b383965f0457b2e60cee0e01328a8e0ddce266e9e101f98e5471fff47bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat2x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "a5dee50d014b41aea2fc88cd938bcee494bd082b0df59bbb0510644008dfeb60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat2x4.inl"
+          },
+          "hashes": {
+            "sha-256": "7dbaca0bad683a01b0a7466cd942fb5e5207e0e12d1f840a87f01f4dd12d9bb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double2x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "1fd885f6484d863f6e43c8276ab2e3548e8789a584eb895a45dfb2479a032c02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float2x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "f0be584885cc45b25708a181d859d69886d6919839f399f831ea727682c88a05"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float2x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "15d8d7f61beeaacd077ef44296a5ed369a0c6aab5ec8481db9bd60f3290013dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/mat3x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "f1f768b8ccf282c755a2d2ab4bd5529726de202b038813468752d00d8ca1c4bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double3x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "21189033fd6644d820eb597cc1afa6c7ee4cc60e8f6d90d5a0d50b7e56f47e81"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat3x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "cedbf24e96b79830e3591634b38723511e934a8a1067b24c6c46d29c9e70497e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat3x2.inl"
+          },
+          "hashes": {
+            "sha-256": "80365a6b0d6ff85dbbb7cfb1ad28a8abc405dc6395f3d267d4dd09bd1f7e69af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double3x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "b8bfeb2bc4ad1e9a27673de6c6bf2a547a8db2c8766ee02a7324170b678ae60f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float3x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "bf9480997a190bf5eec0c6f248c67b32bc1d64e438228d7057c72606805ebc6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float3x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "ac403a7bf1ee8ad2799a4c8a9630d679156bd82f411696a4c9eba1de5f6dc8cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/mat3x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "11feaa133f2164a0e1f68beb23d94ff774734dcd71ca4c1a1f41bc47f8c4e625"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double3x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "ce0212b641e65eddba35e02df72b6343056309af06b0e26464a908d19eece282"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat3x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "384d977fa78a375d592e9641013482531830221e431f3e0948c5d0941b270c14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat3x3.inl"
+          },
+          "hashes": {
+            "sha-256": "a2101b4e7a376f0f9b527d765ffb43c4a61d61ba81757f8a4ae7fcb02a42704b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double3x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "bf7ea325238b15767ae810e556bfdfdeaf3898aa248b75f374b2284e8afa9ef4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float3x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "13afb5c9a76cd00924bfd90338861bc7ba85097cc8a2c93a747862d9aef95737"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float3x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "7dabb577886c2d26c752462118e55e67f03d7119a46877980991bc87b6bce4fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/mat3x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "e2dacd780eabf7f38c4e1f2ec37ff6df37cdb5c14c25a07a695ab5e9952f080d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double3x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "5751fac2e7d8955c1a67a558ae6cf53168c279a8dab43a915e14292b130b242c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat3x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "97a609c7230ae8d7ad62efd44eaa160a98c3dc48751fd3f3c6e33c7da2842226"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat3x4.inl"
+          },
+          "hashes": {
+            "sha-256": "4dd2ad0a2812867f30128e40526fdc0bc0ec45b3dd09816cc5a768144fd3bc71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double3x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "271e3c054da08e16732398f7d9b24cd0af6ab40f862260404b42999d457c0b19"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float3x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "5a964ddc2ffed1f1a8f5f8d392f34aa4f870a0c985eda0c92c29ac6cd5679543"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float3x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "096f630c612e71c525269940cfccea7f76dac9a5f282127a0bf89d3b08527830"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/mat4x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "1aa01695b0cdcf5bed33a7d02011449e5b6a2f2bccc5fea34a380175dedd5144"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double4x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "b0c0155ff665e99994487a4750f703b2018e7bfb6010d3fbd756c5e5d25f4685"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat4x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "0187cae8727bf6b29957f5c19c9c6557622fc9f9820080fb17b37e39ca69e0f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat4x2.inl"
+          },
+          "hashes": {
+            "sha-256": "1b329c559f103a331fd13a9beecf70821bacf88ee786e6e2ff8d2a995f347176"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double4x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "660f21b84ed78dd631c00d25442d807074bc7fbeb5e9001f925f1a3d9e4ad04f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float4x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "c911e033c9268da984c9c2254cb92604060525d55220a333daf1688bf4575f6d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float4x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "dbf3daf91ede9b5987c57c4e4ea609eae089ad241b936aa4ffa604ca89e0346f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/mat4x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "4037fa966d5bb14ef1fd078c3419b1f1b4b904e4c702c1318c071ac7cd615083"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double4x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "6f5202c9dd2a3a97901220d018f728a9dafb56c9895f3b3cf99ced0304be3095"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat4x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "a142bf286335dff576e06f4f40bfe5dabc3ea1862049097ef84a4d07f5e90738"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat4x3.inl"
+          },
+          "hashes": {
+            "sha-256": "9d62332adf785abb264938ea8e419b1901c2807deb4bf5d395012712eb6896b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double4x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "131fe335a681ffb23348f043cee30e2427a9e1f45be9f1c71df1ecb5c7589f6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float4x3.hpp"
+          },
+          "hashes": {
+            "sha-256": "c8d6bff74c2a51cff7573afcd9541f044d5da519694f4b344ec4bdebc1b6a213"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float4x3_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "e178488c0bd2d95c8d1e907e83e7b7f14bad2c9f6012c10514837b814fdeb9b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/mat4x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "367342aa2234872e97b18a7aa17d33aadcb09b2e92f83721cf2556e21567e697"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double4x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "2cfc993535a19a8b52a5f6a6d71a0eb3ab646cbf9da0d3cf50f5f3248d3c2e35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat4x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "ba26ebbdc28f38037fccb5607c795b95aacb682fded359c5165316343d1a69f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat4x4.inl"
+          },
+          "hashes": {
+            "sha-256": "de270132656453051c2d70a80a57ba0eb682f9bd1031531f1be09243ca57e486"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_mat4x4_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "48578deda435ea4f7157496dfee6b7bf4b7e0ab4eefa355473f10020f0fad422"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double4x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "1e906578cda07f564ff7c5b5bf31b4749c686fb6e4052da2bbbd46c9dd6abe00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float4x4.hpp"
+          },
+          "hashes": {
+            "sha-256": "66dbcdd06c50852fa77660429f618ef9d35131b8a8097821247a869014366c15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float4x4_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "e8688aa7c58fa5ad167a79075788b9685096202569e6d2186e0433c93647c5bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_matrix.inl"
+          },
+          "hashes": {
+            "sha-256": "a1f24be353bf8c0c3ddc846444cf9be3403ebb455ec3c7f173074e99107cea5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/geometric.hpp"
+          },
+          "hashes": {
+            "sha-256": "9721362b403b952cf79c8ecfc7eeab02678673fa443e65c40541656134a615be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_geometric.inl"
+          },
+          "hashes": {
+            "sha-256": "0aa17be2667d5447613a01c7db7d283fd3ec43e4d54331d6a73dfe6844d32edd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/exponential.hpp"
+          },
+          "hashes": {
+            "sha-256": "124955d8e89ab7e30fd51561f20a09848348d80d77044057aca07774fa06719b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec1.hpp"
+          },
+          "hashes": {
+            "sha-256": "1008d28b34a974c67d688a1006712ffdbf6221f3e7732fd0b9b2479bfada22c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_vec1.inl"
+          },
+          "hashes": {
+            "sha-256": "71377c4d93c18531e8e31bd55f00caff9b6b24540ec0b95b5ab764de6df945ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_exponential.inl"
+          },
+          "hashes": {
+            "sha-256": "2e5d6796e3e1b7c3c0e550a26cfc5781494e7bf1bf1aa0f4f3b7f0e40a04420d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/vector_relational.hpp"
+          },
+          "hashes": {
+            "sha-256": "5c461ca06d43006ab7d236be00e25bad24614fe4cdfbc76d10f7d8c1e73900b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_vector_relational.inl"
+          },
+          "hashes": {
+            "sha-256": "98481b9150953869dde39fb823f0a3eba606cfe6cd2ae1f6b3936e92c377a689"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_vector_relational_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "554eed2592a8c80fe0021a29ab546865edd250bb9e2620818670474ac0d9a1d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/_vectorize.hpp"
+          },
+          "hashes": {
+            "sha-256": "197e303cc6338b2625795ab85ecd8d8bd332fd1faff118685b173c9bf9257ce2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_exponential_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "3452b1cc5709ff9d74bc606e48a3f735f6ada3d343eac88e017ce77f01ebb984"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/simd/exponential.h"
+          },
+          "hashes": {
+            "sha-256": "e712431ac31ee2006032dd823f45fe7d2f69e6c617830304ffb0d45598a9b349"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/common.hpp"
+          },
+          "hashes": {
+            "sha-256": "52789888dfd31f965fd804e752e0e2a54ac64496e76aa5997bc4ecfc63d72252"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_common.inl"
+          },
+          "hashes": {
+            "sha-256": "e5a022151c1d969e9ccb3f85e4e91ea1c9e182755f2dd8f493434a82cfb92d0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/compute_common.hpp"
+          },
+          "hashes": {
+            "sha-256": "a9ab3f044664b596da81f081d1fa3690997011305b8b8654f0462b6e90245b8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_common_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "2becb18e20aec82c938ad3ce7418be0feae5f6657534a6ab4306e3a279ae6152"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/simd/common.h"
+          },
+          "hashes": {
+            "sha-256": "862267b8e70eb8af7ab325c87216dd1cb516567096fc2fe2190c3f1c6454b7ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_geometric_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "60ee4eb2888590012dcf54514b34207f8cb41014f1825cbd0e8acb0e0012b55e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/simd/geometric.h"
+          },
+          "hashes": {
+            "sha-256": "b3bfad1960c1663f9a4bf202373140e2f2342ae572843e35b01c032c52592f4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_matrix_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "3e1a09b45f1639c0e8c13853d8db1f4208bd841d6250f7c949464b3b2c347250"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/simd/matrix.h"
+          },
+          "hashes": {
+            "sha-256": "de72b2ee8363f2786d74b4b64bc05efb7e06d492b7e90ba96e4b82ec3c5f46c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_double2x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "870a26e88d5606eb59afd4dfeeaae03e4627fe3b2ac2412ef9909fde4a69c380"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float2x2.hpp"
+          },
+          "hashes": {
+            "sha-256": "ecf72a0f02fec9cf6747a4e5b3d62c9a6f07bbc35b4bbf949250a8100500c8ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/ext/matrix_float2x2_precision.hpp"
+          },
+          "hashes": {
+            "sha-256": "955c6d5c0b661dafdcd0169a0e104784deb5dd7862a8fb132720dafb22f4a780"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/trigonometric.hpp"
+          },
+          "hashes": {
+            "sha-256": "cb1c70dc29e437f1abf5e3e55738e88ade925fe0de0e95edac404a752e2d6e0a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_trigonometric.inl"
+          },
+          "hashes": {
+            "sha-256": "12452e0ba259301ece977d5339303437671e9c5939072d804d8ec5b3dc12e1cb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_trigonometric_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/packing.hpp"
+          },
+          "hashes": {
+            "sha-256": "beb3cec06933970594a957a9bc15f6a09883f113778ff5c648b701bf729d5b0e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_packing.inl"
+          },
+          "hashes": {
+            "sha-256": "60b1773a2531970a3112f774fb045122e7016cb51c9bc104a9a66160261910ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_half.hpp"
+          },
+          "hashes": {
+            "sha-256": "9f98c3e42ebf1ad0ca6a1f0d2211bf6d3c226c99555c8852b02ddc4d5c3fa1c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/type_half.inl"
+          },
+          "hashes": {
+            "sha-256": "a4d5a5b138970dedb3aaf5c5676f964a2b93c64131782fa102e36abbd7508a1a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_packing_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "554eed2592a8c80fe0021a29ab546865edd250bb9e2620818670474ac0d9a1d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/integer.hpp"
+          },
+          "hashes": {
+            "sha-256": "cfaa556eeaa984a445a4c52687a8f8f9096a438b577521f95ff12527cccddf76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_integer.inl"
+          },
+          "hashes": {
+            "sha-256": "cf7b469aa90ddcaf50147d0275f0a8a12b3b9d40478512146c97a8ee13457a34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/detail/func_integer_simd.inl"
+          },
+          "hashes": {
+            "sha-256": "8d01e2a7cc25be4f2d00ac1a109a656133a5608614cf315252e6c8976bd27b0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/glm/simd/integer.h"
+          },
+          "hashes": {
+            "sha-256": "15e75f9839bc88590f57179c4a9dc375d8ebb6b0588829f65b686e00f471f3be"
+          }
+        }
+      ]
+    }
+  ]
+}

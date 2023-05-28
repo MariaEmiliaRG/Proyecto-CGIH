@@ -1,0 +1,566 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"aiVertexWeight::mVertexId\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/include/assimp/mesh.h"
+                },
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 5,
+                  "endLine": 214,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiVertexWeight::{ctor}",
+                  "decoratedName": "??0aiVertexWeight@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiVertexWeight::mVertexId"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"aiVertexWeight::mWeight\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/include/assimp/mesh.h"
+                },
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 5,
+                  "endLine": 214,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiVertexWeight::{ctor}",
+                  "decoratedName": "??0aiVertexWeight@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiVertexWeight::mWeight"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"aiBone::mWeights\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/include/assimp/mesh.h"
+                },
+                "region": {
+                  "startLine": 260,
+                  "startColumn": 5,
+                  "endLine": 260,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiBone::{ctor}",
+                  "decoratedName": "??0aiBone@@QAE@ABU0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiBone::mWeights"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"aiMeshKey::mValue\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/include/assimp/anim.h"
+                },
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 5,
+                  "endLine": 164,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMeshKey::{ctor}",
+                  "decoratedName": "??0aiMeshKey@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiMeshKey::mValue"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "La variable \"aiMeshKey::mTime\" no está inicializada. Siempre debe inicializarse una variable miembro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/include/assimp/anim.h"
+                },
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 5,
+                  "endLine": 164,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "aiMeshKey::{ctor}",
+                  "decoratedName": "??0aiMeshKey@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "aiMeshKey::mTime"
+          }
+        },
+        {
+          "ruleId": "C6284",
+          "message": {
+            "text": "Objeto pasado como _Param_(2) cuando la cadena es necesaria para llamar a 'printf'. Tipo real: 'const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/Model.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 3,
+                  "endLine": 16,
+                  "endColumn": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Model::LoadModel",
+                  "decoratedName": "?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6271",
+          "message": {
+            "text": "Argumento adicional pasado a 'printf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/Model.cpp"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 3,
+                  "endLine": 16,
+                  "endColumn": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Model::LoadModel",
+                  "decoratedName": "?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6284",
+          "message": {
+            "text": "Objeto pasado como _Param_(2) cuando la cadena es necesaria para llamar a 'printf'. Tipo real: 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/Model.cpp"
+                },
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 7,
+                  "endLine": 138,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Model::LoadMaterials",
+                  "decoratedName": "?LoadMaterials@Model@@AAEXPBUaiScene@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6284",
+          "message": {
+            "text": "Objeto pasado como _Param_(2) cuando la cadena es necesaria para llamar a 'printf'. Tipo real: 'class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/Model.cpp"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 7,
+                  "endLine": 147,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Model::LoadMaterials",
+                  "decoratedName": "?LoadMaterials@Model@@AAEXPBUaiScene@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32532.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/include/assimp/mesh.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "03401554e738a552e3506eca10e31594b9255599ec7bd69abf5b40f62dfd792f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/include/assimp/anim.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7dd847367e4fb0fe0f41c70a996495fedc425dd8e16c8284152eee546d5892d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Semestre 2023-2/LCGIHC20232/proyecto_Final_Lab_CGIHC/lcgihc_diorama/lcgihc_diorama/Model.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d12167cae2ac188a9dc7ee39223518db36f0d9813610e4619eb5fb8608ed5978"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/model.h"
+          },
+          "hashes": {
+            "sha-256": "70596057b22a9c6c497f305fa1f9949a0f86bede0d3afcdbe2cd09c1d8268faa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/importer.hpp"
+          },
+          "hashes": {
+            "sha-256": "d34fa355b67bf5a8a18a3d089dad80f5ec52b03d686a483e859aef172204da08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/types.h"
+          },
+          "hashes": {
+            "sha-256": "658340bad2482ef1cf760fe1a91d7ffd46c3d722b694a09b95dd92c945552d66"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/defs.h"
+          },
+          "hashes": {
+            "sha-256": "835da36bf0e361e0dea1ecde1fc93d2d2acfae07c8998d6cbca01cd0c40b7381"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/config.h"
+          },
+          "hashes": {
+            "sha-256": "58ec37fea695493b32bf970ab6a1118340b049bac8522b6be64545d3b4225751"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/vector3.h"
+          },
+          "hashes": {
+            "sha-256": "c24cf229da3e7338b948742548a28d6d1698f108da3a5216f1cbb771e68a38b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/vector2.h"
+          },
+          "hashes": {
+            "sha-256": "f31205bd09119e3a0ff905ad52a1d994332766fd69d40faad22b7f9f4c0d6ff0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/compiler/pushpack1.h"
+          },
+          "hashes": {
+            "sha-256": "3edc9bde94bc7a9e1924960f7070323ba2eb4404579f805c5bdfeacea1c219a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/compiler/poppack1.h"
+          },
+          "hashes": {
+            "sha-256": "e163847b2f28e81f9996c761065ae62d730e128f2bb69189de6c9297c825c0c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/color4.h"
+          },
+          "hashes": {
+            "sha-256": "7a12ff510dc91506f13cd753cf39d126b2e23f023d8048cd873d505b3bee22b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/matrix3x3.h"
+          },
+          "hashes": {
+            "sha-256": "0d7195100d6d12db63e07a002297ac310c1172c8ad1962d5f530510f1a0942ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/matrix4x4.h"
+          },
+          "hashes": {
+            "sha-256": "00d61ee99fb09caa0bf35f6ae7f84bd0a2a86f4c093972ca9dff269e603fce73"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/quaternion.h"
+          },
+          "hashes": {
+            "sha-256": "74a503216cbb73e782297ee653dc731f00ef6a1571f07d6e8dd2e4a59d27631d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/vector2.inl"
+          },
+          "hashes": {
+            "sha-256": "564d5f2be7c5b6444fdd3ff05cef8eabb7f2621ac945e88956a527e8bf7207bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/vector3.inl"
+          },
+          "hashes": {
+            "sha-256": "32bad9b577390290d4867cce7d249192241688fe455111b3715c47ac78c47048"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/color4.inl"
+          },
+          "hashes": {
+            "sha-256": "20611219df4c3701ac9efe178f7249b2c5f6ec98ebf3f8a23092bc9c4013070e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/quaternion.inl"
+          },
+          "hashes": {
+            "sha-256": "8ae0d918ca05d872f4029aa69413c69224f682a1be1877cb2f65533488d9ab9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/matrix3x3.inl"
+          },
+          "hashes": {
+            "sha-256": "2686b52b1cc3ed5576bc69a355cc7e88152424093a54343711f7052e2218d7e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/matrix4x4.inl"
+          },
+          "hashes": {
+            "sha-256": "ccb2d57e48da2bd53a03cc5e2963ffb642068c2caf7b6cfed74419019b0aaae6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/scene.h"
+          },
+          "hashes": {
+            "sha-256": "c2d4858c7ed6bdac8fac902c430f3bf645943aff879eff0f0a0624c4d4f97358"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/texture.h"
+          },
+          "hashes": {
+            "sha-256": "404b54f6180316ae6add5682c9ae3d0289b0cd935b4d6b6605b7181862423e27"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/light.h"
+          },
+          "hashes": {
+            "sha-256": "93d411123428442cad2db1748174d94fd19166226b45a1cbbfa1977dfd4dd5b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/camera.h"
+          },
+          "hashes": {
+            "sha-256": "b72912712dd35e2873eb4a212678931c335afc8c8ee1ad620ef3486f6978da49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/material.h"
+          },
+          "hashes": {
+            "sha-256": "8aff7ee8269f54c1bada3a8bb0c6701836e994f9c5d194796f4a1a2185a776da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/material.inl"
+          },
+          "hashes": {
+            "sha-256": "2eecce89b11abe561c6393c6346d11f9183ec8b00bcd002edab947fcf9f74874"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/metadata.h"
+          },
+          "hashes": {
+            "sha-256": "bdd495f3b5eaea6c24796cc4ce98b715a992b34e6182f926cf6def1149068395"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/assimp/postprocess.h"
+          },
+          "hashes": {
+            "sha-256": "8cba74e3010147807750d0fc7c5d9732b943a4456229d9f9e7a02a57a697cf2c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/mesh.h"
+          },
+          "hashes": {
+            "sha-256": "9ea8e206a34bb586690a152102ee57b3b687c467e75d443212aa79f8334b47aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/glew.h"
+          },
+          "hashes": {
+            "sha-256": "1a2d50dc00a69940838cb3b5413cf7a7ac3cee8078672f27ffbfa2d3b88ad344"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/texture.h"
+          },
+          "hashes": {
+            "sha-256": "f019d0a20402a11933174d1e3bf94c686b700ad512d68f072ab6887440e8fbb4"
+          }
+        }
+      ]
+    }
+  ]
+}

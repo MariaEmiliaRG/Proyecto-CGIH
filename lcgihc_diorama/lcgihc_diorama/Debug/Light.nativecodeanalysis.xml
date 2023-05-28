@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Light.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Light::saveAmbientIntensity" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Light::{ctor}</FUNCTION>
+    <DECORATED>??0Light@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Light::saveAmbientIntensity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Light.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Light::saveDiffuseIntensity" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Light::{ctor}</FUNCTION>
+    <DECORATED>??0Light@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Light::saveDiffuseIntensity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Light.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Light::saveAmbientIntensity" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Light::{ctor}</FUNCTION>
+    <DECORATED>??0Light@@QAE@MMMMM@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Light::saveAmbientIntensity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Light.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Light::saveDiffuseIntensity" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Light::{ctor}</FUNCTION>
+    <DECORATED>??0Light@@QAE@MMMMM@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Light::saveDiffuseIntensity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned int,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01I$0A@@glm@@QAE@II@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned int,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01I$0A@@glm@@QAE@II@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned int,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01I$0A@@glm@@QAE@II@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned int,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01I$0A@@glm@@QAE@II@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned int,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01I$0A@@glm@@QAE@II@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@MM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@MM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@MM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@MM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@MM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$02M$0A@@glm@@QAE@MMM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$02M$0A@@glm@@QAE@MMM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$02M$0A@@glm@@QAE@MMM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$02M$0A@@glm@@QAE@MMM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$02M$0A@@glm@@QAE@MMM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$02M$0A@@glm@@QAE@MMM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$02M$0A@@glm@@QAE@MMM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01F$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0FF@?$vec@$01M$0A@@glm@@QAE@FF@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,signed char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,signed char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,signed char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,signed char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,signed char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,signed char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,signed char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,signed char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,signed char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03C$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,signed char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0CCCC@?$vec@$03M$0A@@glm@@QAE@CCCC@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::data" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::q</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::b</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

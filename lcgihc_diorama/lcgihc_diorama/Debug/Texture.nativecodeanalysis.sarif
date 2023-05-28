@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32532.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/texture.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a05d571b5cec2a083c9ba3471bab6ec5af519d38f5bfa3b51e1cc0417068d7b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/texture.h"
+          },
+          "hashes": {
+            "sha-256": "f019d0a20402a11933174d1e3bf94c686b700ad512d68f072ab6887440e8fbb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/include/glew.h"
+          },
+          "hashes": {
+            "sha-256": "1a2d50dc00a69940838cb3b5413cf7a7ac3cee8078672f27ffbfa2d3b88ad344"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/commonvalues.h"
+          },
+          "hashes": {
+            "sha-256": "efc0ec064a936afd66149da5bd3d9ebf2f1bb1e77f43628dda7a791b88aa5e9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/semestre 2023-2/lcgihc20232/proyecto_final_lab_cgihc/lcgihc_diorama/lcgihc_diorama/stb_image.h"
+          },
+          "hashes": {
+            "sha-256": "155017e657b6d807dd16d7b8252bd4b750bf95348a1d27b7a22a9117f01c26e6"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1647 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Camera.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Camera::viewType" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Camera::{ctor}</FUNCTION>
+    <DECORATED>??0Camera@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Camera::viewType</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned int,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01I$0A@@glm@@QAE@II@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned int,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$02M$0A@@glm@@QAE@MMM@Z</DECORATED>
+    <FUNCLINE>37</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::r</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>82</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,unsigned short,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$01G$0A@@glm@@QAE@ABU?$vec@$01M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>82</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,unsigned short,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::t</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0GG@?$vec@$01M$0A@@glm@@QAE@GG@Z</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>467</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,unsigned char,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$03E$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>467</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,unsigned char,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>177</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0EEEE@?$vec@$03M$0A@@glm@@QAE@EEEE@Z</DECORATED>
+    <FUNCLINE>177</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec2.inl</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;2,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$01M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;2,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@MMMM@Z</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>155</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$vec@$03M$0A@@glm@@QAE@M@Z</DECORATED>
+    <FUNCLINE>155</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::a</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>3667</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Usando la memoria sin inicializar 'coutput'.</DESCRIPTION>
+    <FUNCTION>load_jpeg_image</FUNCTION>
+    <DECORATED>?load_jpeg_image@@YAPAEPAUstbi__jpeg@@PAH11H@Z</DECORATED>
+    <FUNCLINE>3524</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3526</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3526</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3526</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3527</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3530</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3533</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3536</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3538</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3540</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3543</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3547</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3548</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3548</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3549</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3550</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'coutput' no se ha inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3552</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3554</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3554</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir este bucle, (se asume que 'k&lt;decode_n' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3577</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3578</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir esta bifurcación, (se asume que '!output' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3581</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3581</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Entrar en este bucle, (se asume 'j&lt;z-&gt;s-&gt;img_y')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3582</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3583</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3583</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir este bucle, (se asume que 'k&lt;decode_n' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3597</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir esta bifurcación, (se asume que 'n&gt;=3' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3640</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir esta bifurcación, (se asume que 'is_rgb' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3650</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir esta bifurcación, (se asume que '&lt;condición de bifurcación&gt;' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3660</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Omitir esta bifurcación, (se asume que '&lt;condición de bifurcación&gt;' es false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3667</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>stb_image.h</FILENAME>
+        <LINE>3667</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Se usa 'coutput', pero puede que no se haya inicializado</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>definition.h</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "_VertexColor::color" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>_VertexColor::{ctor}</FUNCTION>
+    <DECORATED>??0_VertexColor@@QAE@XZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>_VertexColor::color</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\include\assimp\</FILEPATH>
+      <FILENAME>mesh.h</FILENAME>
+      <LINE>214</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "aiVertexWeight::mVertexId" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>aiVertexWeight::{ctor}</FUNCTION>
+    <DECORATED>??0aiVertexWeight@@QAE@XZ</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>aiVertexWeight::mVertexId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\include\assimp\</FILEPATH>
+      <FILENAME>mesh.h</FILENAME>
+      <LINE>260</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "aiBone::mWeights" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>aiBone::{ctor}</FUNCTION>
+    <DECORATED>??0aiBone@@QAE@ABU0@@Z</DECORATED>
+    <FUNCLINE>260</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>aiBone::mWeights</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\include\assimp\</FILEPATH>
+      <FILENAME>anim.h</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "aiMeshKey::mTime" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>aiMeshKey::{ctor}</FUNCTION>
+    <DECORATED>??0aiMeshKey@@QAE@XZ</DECORATED>
+    <FUNCLINE>164</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>aiMeshKey::mTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>lcgihc_diorama.cpp</FILENAME>
+      <LINE>433</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6200</DEFECTCODE>
+    <DESCRIPTION>El índice '3' está fuera del intervalo del índice válido de '0' a '2' para el búfer fuera de pila 'class PointLight * pointLights'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>337</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>lcgihc_diorama.cpp</FILENAME>
+      <LINE>433</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Saturación del búfer al escribir en 'pointLights'.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>337</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>339</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>340</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>342</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>343</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>345</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>345</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>345</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>347</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>347</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>347</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>348</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>349</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>350</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>351</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>352</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>358</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>361</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>361</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>361</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>362</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>362</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>362</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>365</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>369</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>370</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>374</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>377</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>379</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>380</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>381</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>382</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>382</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>382</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>383</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>384</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>384</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>384</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>385</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>385</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>385</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>387</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>389</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>390</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>390</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>390</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>391</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>392</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>392</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>392</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>393</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>393</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>393</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>394</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>394</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>394</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>397</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>397</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>397</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>397</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>400</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>400</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>400</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>404</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>404</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>404</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>409</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>412</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>412</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>412</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>416</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>419</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>419</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>419</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+        <FILENAME>lcgihc_diorama.cpp</FILENAME>
+        <LINE>433</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Escritura no válida en 'pointLights[3]', (el intervalo de escritura comprende de 0 a 2)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>lcgihc_diorama.cpp</FILENAME>
+      <LINE>528</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Desbordamiento aritmético: el operador "-" se usa en un valor de 4 bytes y, a continuación, el resultado se convierte a un valor de 8 bytes. Convierta el valor al tipo más amplio antes de llamar al operador "-" para evitar el desbordamiento (io.2).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>337</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0NMM@?$vec@$02M$0A@@glm@@QAE@NMM@Z</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::s</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Light.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Light::saveAmbientIntensity" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Light::{ctor}</FUNCTION>
+    <DECORATED>??0Light@@QAE@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Light::saveAmbientIntensity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Light.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Light::saveAmbientIntensity" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Light::{ctor}</FUNCTION>
+    <DECORATED>??0Light@@QAE@MMMMM@Z</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Light::saveAmbientIntensity</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6284</DEFECTCODE>
+    <DESCRIPTION>Objeto pasado como _Param_(2) cuando la cadena es necesaria para llamar a 'printf'. Tipo real: 'const class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt;'.</DESCRIPTION>
+    <FUNCTION>Model::LoadModel</FUNCTION>
+    <DECORATED>?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6271</DEFECTCODE>
+    <DESCRIPTION>Argumento adicional pasado a 'printf'.</DESCRIPTION>
+    <FUNCTION>Model::LoadModel</FUNCTION>
+    <DECORATED>?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6284</DEFECTCODE>
+    <DESCRIPTION>Objeto pasado como _Param_(2) cuando la cadena es necesaria para llamar a 'printf'. Tipo real: 'class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt;'.</DESCRIPTION>
+    <FUNCTION>Model::LoadMaterials</FUNCTION>
+    <DECORATED>?LoadMaterials@Model@@AAEXPBUaiScene@@@Z</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6284</DEFECTCODE>
+    <DESCRIPTION>Objeto pasado como _Param_(2) cuando la cadena es necesaria para llamar a 'printf'. Tipo real: 'class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt;'.</DESCRIPTION>
+    <FUNCTION>Model::LoadMaterials</FUNCTION>
+    <DECORATED>?LoadMaterials@Model@@AAEXPBUaiScene@@@Z</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Shader_light.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Shader::uniformView" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Shader::{ctor}</FUNCTION>
+    <DECORATED>??0Shader@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Shader::uniformView</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Skybox.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Skybox::skyMesh" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Skybox::{ctor}</FUNCTION>
+    <DECORATED>??0Skybox@@QAE@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Skybox::skyMesh</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Skybox.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Skybox::skyMesh" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Skybox::{ctor}</FUNCTION>
+    <DECORATED>??0Skybox@@QAE@V?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Skybox::skyMesh</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec3.inl</FILENAME>
+      <LINE>159</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;3,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0M$0A@@?$vec@$02M$0A@@glm@@QAE@ABU?$vec@$03M$0A@@1@@Z</DECORATED>
+    <FUNCLINE>159</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;3,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::g</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\glm\detail\</FILEPATH>
+      <FILENAME>type_vec4.inl</FILENAME>
+      <LINE>422</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>glm::vec&lt;4,float,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??$?0MH$0A@@?$vec@$03M$0A@@glm@@QAE@ABU?$vec@$02M$0A@@1@H@Z</DECORATED>
+    <FUNCLINE>422</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>glm::vec&lt;4,float,0&gt;::&lt;unnamed-tag&gt;::&lt;unnamed-tag&gt;::p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Window.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Window::mainWindow" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Window::{ctor}</FUNCTION>
+    <DECORATED>??0Window@@QAE@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Window::mainWindow</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Window.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "Window::mainWindow" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>Window::{ctor}</FUNCTION>
+    <DECORATED>??0Window@@QAE@HH@Z</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Window::mainWindow</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

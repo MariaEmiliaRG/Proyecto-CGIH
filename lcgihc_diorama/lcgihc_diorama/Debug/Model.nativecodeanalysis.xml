@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\include\assimp\</FILEPATH>
+      <FILENAME>mesh.h</FILENAME>
+      <LINE>214</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "aiVertexWeight::mVertexId" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>aiVertexWeight::{ctor}</FUNCTION>
+    <DECORATED>??0aiVertexWeight@@QAE@XZ</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>aiVertexWeight::mVertexId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\include\assimp\</FILEPATH>
+      <FILENAME>mesh.h</FILENAME>
+      <LINE>214</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "aiVertexWeight::mWeight" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>aiVertexWeight::{ctor}</FUNCTION>
+    <DECORATED>??0aiVertexWeight@@QAE@XZ</DECORATED>
+    <FUNCLINE>214</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>aiVertexWeight::mWeight</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\include\assimp\</FILEPATH>
+      <FILENAME>mesh.h</FILENAME>
+      <LINE>260</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "aiBone::mWeights" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>aiBone::{ctor}</FUNCTION>
+    <DECORATED>??0aiBone@@QAE@ABU0@@Z</DECORATED>
+    <FUNCLINE>260</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>aiBone::mWeights</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\include\assimp\</FILEPATH>
+      <FILENAME>anim.h</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "aiMeshKey::mValue" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>aiMeshKey::{ctor}</FUNCTION>
+    <DECORATED>??0aiMeshKey@@QAE@XZ</DECORATED>
+    <FUNCLINE>164</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>aiMeshKey::mValue</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\include\assimp\</FILEPATH>
+      <FILENAME>anim.h</FILENAME>
+      <LINE>164</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>La variable "aiMeshKey::mTime" no está inicializada. Siempre debe inicializarse una variable miembro (type.6).</DESCRIPTION>
+    <FUNCTION>aiMeshKey::{ctor}</FUNCTION>
+    <DECORATED>??0aiMeshKey@@QAE@XZ</DECORATED>
+    <FUNCLINE>164</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>aiMeshKey::mTime</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6284</DEFECTCODE>
+    <DESCRIPTION>Objeto pasado como _Param_(2) cuando la cadena es necesaria para llamar a 'printf'. Tipo real: 'const class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt;'.</DESCRIPTION>
+    <FUNCTION>Model::LoadModel</FUNCTION>
+    <DECORATED>?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6271</DEFECTCODE>
+    <DESCRIPTION>Argumento adicional pasado a 'printf'.</DESCRIPTION>
+    <FUNCTION>Model::LoadModel</FUNCTION>
+    <DECORATED>?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6284</DEFECTCODE>
+    <DESCRIPTION>Objeto pasado como _Param_(2) cuando la cadena es necesaria para llamar a 'printf'. Tipo real: 'class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt;'.</DESCRIPTION>
+    <FUNCTION>Model::LoadMaterials</FUNCTION>
+    <DECORATED>?LoadMaterials@Model@@AAEXPBUaiScene@@@Z</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\Semestre 2023-2\LCGIHC20232\proyecto_Final_Lab_CGIHC\lcgihc_diorama\lcgihc_diorama\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>147</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6284</DEFECTCODE>
+    <DESCRIPTION>Objeto pasado como _Param_(2) cuando la cadena es necesaria para llamar a 'printf'. Tipo real: 'class std::basic_string&lt;char,struct std::char_traits&lt;char&gt;,class std::allocator&lt;char&gt; &gt;'.</DESCRIPTION>
+    <FUNCTION>Model::LoadMaterials</FUNCTION>
+    <DECORATED>?LoadMaterials@Model@@AAEXPBUaiScene@@@Z</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
