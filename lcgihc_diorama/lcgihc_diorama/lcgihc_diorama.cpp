@@ -585,6 +585,28 @@ int main()
 			roca.RenderModel();
 		}
 
+
+		float rocasF[] = {
+			100, 30, -120, 10,8,17,
+			95, 36, -98, 20,7,10, 
+			75, 30, -80, 10,9,12,
+			-87, 30, -120, 12,8,11,
+			-65, 20, -98, 25,7,13,
+			-79, 25, -80, 14,10,12
+
+		};
+
+		for (i = 0; i < (sizeof(rocasF) / sizeof(rocasF[0])) / 6; i++) {
+
+			j = 6 * i;
+			model = glm::mat4(1.0);
+			model = glm::translate(model, glm::vec3(rocasF[j], rocasF[j + 1], rocasF[j + 2]));
+			model = glm::scale(model, glm::vec3(rocasF[j + 3], rocasF[j + 4], rocasF[j + 5]));
+			glUniformMatrix4fv(uniformModel, 1, GL_FALSE, glm::value_ptr(model));
+			Material_opaco.UseMaterial(uniformSpecularIntensity, uniformShininess);
+			roca.RenderModel();
+		}
+
 		float plantas[] = {
 			12.0f, 1.0f, -51.0f, 1.0f, 2.0f, 1.0f,
 			10.0f, 2.0f, -40.0f, 0.5f, 0.5f, 0.5f,
